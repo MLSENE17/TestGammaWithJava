@@ -12,7 +12,8 @@ public class FizzBuzz2Test {
         Assert.assertEquals(FizzBuzz2.response(8), "8");
         Assert.assertEquals(FizzBuzz2.response(13), FizzBuzz2.FIZZ);
         Assert.assertEquals(FizzBuzz2.response(9), FizzBuzz2.FIZZ);
-        Assert.assertEquals(FizzBuzz2.response(53), FizzBuzz2.BUZZ);
+        Assert.assertEquals(FizzBuzz2.response(54), FizzBuzz2.BUZZ);
+        Assert.assertEquals(FizzBuzz2.response(53), FizzBuzz2.FIZZ + FizzBuzz2.BUZZ);
         Assert.assertEquals(FizzBuzz2.response(45), FizzBuzz2.FIZZ + FizzBuzz2.BUZZ);
         Assert.assertEquals(FizzBuzz2.response(88), "88");
     }

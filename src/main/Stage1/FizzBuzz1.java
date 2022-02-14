@@ -5,10 +5,6 @@ public class FizzBuzz1
 {
     public static final String FIZZ = "Fizz";
     public static final String BUZZ = "Buzz";
-    public static void main(String[] args) {
-        System.out.println("Debut de FizzBuzz");
-       FizzBuzz1.fizzBuzz(100);
-    }
     public static void fizzBuzz(int num) {
         for(int i=0;i<=num;i++){
             System.out.println(response(i));
